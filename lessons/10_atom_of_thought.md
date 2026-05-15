@@ -161,7 +161,7 @@ if graph:
     print(f"Execution results: {results}")
 ```
 
-![Atom of Thought Graph](diagrams/lesson-10-atom-of-thoght.png)
+![Atom of Thought Graph](../diagrams/lesson-10-atom-of-thoght.png)
 
 ## Compare to Lesson 09
 
