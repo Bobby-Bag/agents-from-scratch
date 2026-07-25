@@ -40,11 +40,12 @@ class LocalLLM:
         """
         self.llm = Llama(
             model_path=model_path,
-            temperature=temperature,
             n_ctx=n_ctx,
             verbose=False,
+            seed=-1,
         )
         self.max_tokens = max_tokens
+        self.temperature = temperature
     
     def generate(self, prompt: str, temperature: float = None, stop: list[str] = None) -> str:
         """
@@ -64,8 +65,7 @@ class LocalLLM:
             "stop": stop if stop is not None else ["</s>", "\n\n", "User:", "Assistant:"],
         }
         
-        if temperature is not None:
-            kwargs["temperature"] = temperature
+        kwargs["temperature"] = temperature if temperature is not None else self.temperature
         
         response = self.llm(**kwargs)
         return response["choices"][0]["text"].strip()
