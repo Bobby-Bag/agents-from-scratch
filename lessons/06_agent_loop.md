@@ -173,7 +173,7 @@ Input -> Step 1 -> Step 2 -> Step 3 -> Done
 ```
 Multiple steps in sequence, each deciding what to do next.
 
-![Agent Loop Flow](diagrams/lesson-06-agent-loop.png)
+![Agent Loop Flow](../diagrams/lesson-06-agent-loop.png)
 
 ## Key Insights
 
