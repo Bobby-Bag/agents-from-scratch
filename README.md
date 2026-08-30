@@ -71,6 +71,15 @@ This repository builds one continuously evolving agent across 12 lessons:
 In short:
 
 1. Install dependencies: `pip install -r requirements.txt`
+
+   a. If this doesn't work, it may be because you don't have a C++ compiler already installed. No worries. Run the command below to get around installing the compiler.
+
+   ```
+   pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+   ```
+
+   love Bobby 😃
+
 2. Download a GGUF model to the `models/` folder
 3. Run: `python complete_example.py`
 
