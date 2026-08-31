@@ -192,5 +192,5 @@ This repository synthesizes best practices from modern agent development while d
 
 - Bobby Bagley - [Bobby-Bag](https://github.com/Bobby-Bag)
 - Samantha Menjivar - [Menjivars](https://github.com/menjivars)
-- Ruth Segovia - [Segovia-ruth](https://github.com/segovia-ruth)
+- Ruth Segovia - [Segovia-ruth](https://github.com/segovia-ruth) 🥰
 - Ciara Germany - pending...
