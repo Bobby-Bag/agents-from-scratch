@@ -31,7 +31,7 @@ def lesson_02_with_role():
     response = agent.generate_with_role("Explain what an AI agent is?")
     print(f"Response: {response}")
 
-'''
+
 def lesson_03_structured():
     """Lesson 03: Structured outputs"""
     print("\n" + "="*50)
@@ -328,17 +328,17 @@ def main():
     try:
         # Comment out lessons you want to skip
         lesson_01_basic_chat()
-        lesson_02_with_role()
-        lesson_03_structured()
-        lesson_04_decisions()
-        lesson_05_tools()
-        lesson_06_agent_loop()
-        lesson_07_memory()
-        lesson_08_planning()
-        lesson_09_atomic_actions()
-        lesson_10_aot()
-        lesson_11_evals()
-        lesson_12_telemetry()
+        #lesson_02_with_role()
+        #lesson_03_structured()
+        #lesson_04_decisions()
+        #lesson_05_tools()
+        #lesson_06_agent_loop()
+        #lesson_07_memory()
+        #lesson_08_planning()
+        #lesson_09_atomic_actions()
+        #lesson_10_aot()
+        #lesson_11_evals()
+        #lesson_12_telemetry()
         
         print("\n" + "="*50)
         print("All examples completed!")
@@ -352,7 +352,7 @@ def main():
         print("3. Updated the model path in this script")
     except Exception as e:
         print(f"\n❌ Unexpected error: {e}")
-'''
+
 
 if __name__ == "__main__":
     main()
