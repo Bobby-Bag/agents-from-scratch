@@ -31,7 +31,7 @@ def lesson_02_with_role():
     response = agent.generate_with_role("Explain what an AI agent is?")
     print(f"Response: {response}")
 
-
+'''
 def lesson_03_structured():
     """Lesson 03: Structured outputs"""
     print("\n" + "="*50)
@@ -352,7 +352,7 @@ def main():
         print("3. Updated the model path in this script")
     except Exception as e:
         print(f"\n❌ Unexpected error: {e}")
-
+'''
 
 if __name__ == "__main__":
     main()
