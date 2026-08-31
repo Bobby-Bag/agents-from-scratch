@@ -191,5 +191,6 @@ This repository synthesizes best practices from modern agent development while d
 ## Contributors
 
 - Bobby Bagley - [Bobby-Bag](https://github.com/Bobby-Bag)
-- Ruth Segovia - [Segovia-ruth](https://github.com/segovia-ruth)
 - Samantha Menjivar - [Menjivars](https://github.com/menjivars)
+- Ruth Segovia - [Segovia-ruth](https://github.com/segovia-ruth)
+- Ciara Germany - pending...
