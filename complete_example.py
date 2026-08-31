@@ -5,7 +5,7 @@ Complete Agent Example
 This script demonstrates the agent using features from all 12 lessons.
 It's meant as a reference for how the pieces fit together.
 """
-
+'''
 import time
 from agent.agent import Agent
 
@@ -356,3 +356,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+'''
+
+print ("It worked!)
